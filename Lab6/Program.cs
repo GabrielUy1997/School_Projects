@@ -19,7 +19,7 @@ namespace Lab6
                "\nInitial standard time is: " +
                t.ToStandardString();
 
-            // attempt valid time settings
+            // attempt valid time setting
             t.Hour = 13;
             t.Minutes = 27;
             t.Seconds = 6;
