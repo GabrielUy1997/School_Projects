@@ -1,2 +1,2 @@
 # School_Projects
-my projects
+my projects and learning how to use github
