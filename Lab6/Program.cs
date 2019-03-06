@@ -30,7 +30,7 @@ namespace Lab6
                "\nStandard time after SetTime is: " +
                t.ToStandardString();
 
-            // attempt invalid time setting
+            // attempt invalid time settings
             t.Hour = 99;
             t.Minutes = 99;
             t.Seconds = 99;
