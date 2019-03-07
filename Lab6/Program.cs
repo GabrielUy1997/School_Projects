@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Lab6
 {
@@ -31,7 +32,14 @@ namespace Lab6
                t.ToStandardString();
 
             // attempt invalid time settings
-            t.Hour = 99;
+            try
+            {
+                t.Hour = 99;
+            }
+            catch(Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
             t.Minutes = 99;
             t.Seconds = 99;
 
